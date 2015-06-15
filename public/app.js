@@ -26,7 +26,7 @@ SignupView = Backbone.View.extend({
 
 var Router = Backbone.Router.extend({
 	routes:{
-		'signup':'signup'
+		'signupform':'signupform'
 	},
 	signupform: function(){
 		console.log('hi')
